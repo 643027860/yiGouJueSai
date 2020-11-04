@@ -1,0 +1,65 @@
+.manageItemDetail{
+  .manageDetailDiv{
+    position: relative;
+    min-height: calc(100vh - 221px);
+    padding: 20px;
+    background-color: rgba(0,0,0,0.25);
+    .form-detail{
+      .graphicalDiv{
+        height: 430px;
+        background-color: rgba(0,0,0,0.25);
+        box-sizing: border-box;
+        border: 1px solid rgb(128,128,128);
+        .titleDiv{
+          border-bottom: 1px solid rgb(128,128,128);
+          .titleP{
+            margin: 0;
+            padding: 0 20px;
+            height: 48px;
+            line-height: 48px;
+            font-size: 16px;
+          }
+        }
+        .contentDiv{
+          padding: 20px;
+        }
+      }
+      .el-form-item__label,.el-form-item__content{
+        color: white;
+      }
+      .innerTable{
+        max-width: 1000px;
+      }
+      .emptyModelForm{
+        height: 312px;
+      }
+      .modelForm{
+        padding: 10px 20px 30px;
+        background-color: rgba(0,0,0,0.25);
+        border: 1px solid rgb(128,128,128);
+        border-top: 0px;
+      }
+    }
+    .uploadModelTable{
+      .el-form-item{
+        min-width: 500px;
+        input,textarea{
+          width: 40%!important;
+        }
+        .el-select{
+          input{
+            width: 100%!important;
+          }
+        }
+        .paramsTable{
+          width: 60%;
+          min-width: 600px;
+          input,textarea{
+            border: 1px solid rgb(128,128,128)!important;
+            width: 80%!important;
+          }
+        }
+      }
+    }
+  }
+}

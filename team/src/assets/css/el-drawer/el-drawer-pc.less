@@ -1,0 +1,13 @@
+/*抽屉弹出层样式*/
+.el-drawer{
+  background-color: rgba(255,255,255,0.7);  /*设置透明度*/
+  .el-drawer__header{
+    span{
+      color: black;
+    }
+  }                   /*标题设置为黑色*/
+}
+/*去掉选中抽屉的蓝色边框以及打开抽屉时自动选中标题时的蓝色边框*/
+.el-drawer,.el-drawer .el-drawer__header span:focus {
+  outline: 0;
+}

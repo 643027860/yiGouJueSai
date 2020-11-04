@@ -1,0 +1,58 @@
+.manageItemList{
+  background-color: transparent;
+  .headerSearchDiv{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.25);
+    .headerTitle{
+      margin-right: 0px;
+      font-size: 16px;
+    }
+    .headerSearchForm{
+      .searchDiv{
+        display: inline-block;
+        margin-right: 30px;
+      }
+      .el-form-item{
+        margin: 0;
+        margin-right: 10px;
+      }
+    }
+    .headerButton{
+      margin-right: 20px;
+      padding: 10px 15px;
+    }
+    .uploadButton{
+      position: absolute;
+      right: 20px;
+      top: 13px;
+      button{
+        float: left;
+      }
+    }
+  }
+  .manageContentDiv{
+    position: relative;
+    min-height: calc(100vh - 221px);
+    .table-list{
+      padding-bottom: 50px;
+      min-height: calc(100vh - 181px);
+    }
+    .pages{
+      position: absolute;
+      bottom: 10px;
+      left: 50%;
+      transform: translate3d(-50%,0,0);
+      li,button{
+        background-color: transparent;
+      }
+      .btn-next,.btn-prev,.el-icon-more{
+        color: white;
+      }
+      .el-pagination{
+        color: rgb(233,233,233);
+      }
+    }
+  }
+}
